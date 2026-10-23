@@ -1,0 +1,25 @@
+# 编译产物
+*.exe
+*.pdb
+*.dll
+
+# 运行时生成（每个用户环境不同，不入库）
+spectrum.ini
+state.ini
+spectrum.log
+selftest.txt
+selftest_*.bmp
+
+# 测试产物
+.test/
+__pycache__/
+*.pyc
+
+# 发布打包产物（作为 Release 资产上传，不入库）
+dist/
+
+# 编辑器
+.vs/
+.vscode/
+*.user
+*~

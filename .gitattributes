@@ -1,0 +1,18 @@
+# 默认按文本处理，检出时用 CRLF（Windows 项目）
+* text=auto eol=crlf
+
+# 批处理必须是 CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# 二进制
+*.exe binary
+*.ico binary
+*.png binary
+*.zip binary
+*.bmp binary
+*.wav binary
+
+# 脚本保持 LF
+*.sh text eol=lf
+*.py text eol=lf
